@@ -1,0 +1,72 @@
+html, body {
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+
+html {
+	font-size: 10px;
+}
+
+.page-content {
+	width: 41rem;
+	margin: auto;
+}
+
+.header {
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-top: 4rem;
+	margin-bottom: 6rem;
+}
+
+.calc {
+	padding: 1rem .5rem .5rem .5rem;
+	background-color: #aaa;
+	border-radius: .5rem;
+	box-shadow: 2px 5px 8px #c9c9c9;
+}
+
+.result-area {
+	height: 7rem;
+	margin-left: .5rem;
+	margin-right: .5rem;
+	margin-bottom: .5rem;
+	padding: .5rem;
+	background: #dedede;
+	border-radius: .5rem;
+}
+
+.results-field {
+	background-color: #f7fff7;
+	height: 6rem;
+	padding: .5rem;
+	border-radius: .5rem;
+	font-size: 5.5rem;
+	text-align:right;
+}
+
+.button-row {
+	width: 100%;
+}
+
+.button {
+	display: inline-block;
+	width: 9rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	margin: .5rem;
+	text-align: center;
+	font-size: 3rem;
+	background-color: #eee;
+	border-radius: .5rem;
+	box-shadow: 0 2px 3px #333;
+}
+
+.button:hover {
+	background-color: #ccc;
+}
