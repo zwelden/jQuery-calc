@@ -29,10 +29,11 @@ h1 {
 	background-color: #aaa;
 	border-radius: .5rem;
 	box-shadow: 2px 5px 8px #c9c9c9;
+	margin-bottom: 4rem;
 }
 
 .result-area {
-	height: 7rem;
+	height: 9rem;
 	margin-left: .5rem;
 	margin-right: .5rem;
 	margin-bottom: .5rem;
@@ -43,11 +44,12 @@ h1 {
 
 .results-field {
 	background-color: #f7fff7;
-	height: 6rem;
+	height: 8rem;
 	padding: .5rem;
 	border-radius: .5rem;
-	font-size: 5.5rem;
+	font-size: 7.5rem;
 	text-align:right;
+	overflow: hidden;
 }
 
 .button-row {
@@ -69,4 +71,23 @@ h1 {
 
 .button:hover {
 	background-color: #ccc;
+
+}
+
+.equals {
+	width: 19rem;
+	background-color: #196619;
+}
+
+.equals:hover {
+	background-color: #339933;
+}
+
+.clr {
+	background-color: #a32929;
+	color: #ddd;
+}
+
+.clr:hover {
+	background-color: #c65353;
 }

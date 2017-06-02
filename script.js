@@ -33,6 +33,10 @@ function doMath(input) {
 
 }
 
+/* 
+Math Functions
+*/
+
 function add(x, y) {
 	return x + y;
 }
@@ -50,6 +54,27 @@ function divide(x, y)  {
 	return x / y;
 }
 
+/*
+Other input related functions
+*/
+
+function clr() {
+	$('.results-field').text("");
+	lastInput = undefined;
+	lastOperator = undefined;
+}
+
+function del(){
+	var string = $('.results-field').text();
+	$('.results-field').text(string.slice(0, -1));
+}
+
+function changeSign() {
+	var num = Number($('.results-field').text());
+	num *= -1;
+	$('.results-field').text(String(num));
+}
+
 function clickHandle(input) {
 	if (buttonNumTexts.indexOf(input) > -1) {
 		var currentFieldValue = $('.results-field').text();
@@ -65,6 +90,15 @@ function clickHandle(input) {
 		else {
 			doMath(input);
 		}
+	}
+	else if (input === 'clr') {
+		clr();
+	}
+	else if (input === 'del') {
+		del();
+	}
+	else if (input === '-/+') {
+		changeSign();
 	}
 	else {
 		return;
