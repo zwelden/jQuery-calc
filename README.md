@@ -5,7 +5,8 @@ A web based jQuery implementation of a simple calculator
 www.ZachWelden.com/calc
 
 ## Left to do:
-Add clear button  
-Add pos/neg button  
-Add backspace button  
-Deal with values larger than 12 digits  
+- [x] dd clear button  
+- [x] Add pos/neg button  
+- [x] Add backspace button  
+- [ ] Deal with values larger than 9 digits
+- [ ] Add keypad input
